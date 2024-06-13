@@ -87,6 +87,13 @@ public:
         }
     }
 
+    void preorder(Node* ptr)
+    {
+        
+    }
+
+
+
 };
 
 int main()
