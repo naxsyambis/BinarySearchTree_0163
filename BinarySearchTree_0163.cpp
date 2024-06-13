@@ -147,7 +147,31 @@ int main()
             cin >> word;
             x.insert(word);
         }
-
+        case '2':
+        {
+            x.inorder(x.ROOT);
+            break;
+        }
+        case '3':
+        {
+            x.preorder(x.ROOT);
+            break;
+        }
+        case '4':
+        {
+            x.postorder(x.ROOT);
+            break;
+        }
+        case '5':
+        {
+            return 0;
+            break;
+        }
+        default:
+        {
+            cout << "invalid choice please try again\n ";
+            break;
+        }
         }
     }
 }
